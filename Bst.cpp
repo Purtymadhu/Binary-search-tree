@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//Binary search Tree with inorder traversal;
 #include<stdlib.h>
   
 struct node
@@ -67,7 +67,6 @@ int main(){
     	int number;
 	printf("%s","Enter number be searched\n");
 	scanf("%d",&number);
-	//If number is found, print "FOUND"
 	if(Search(root,number) == true) 
 	{
 		printf("%s","FOUND");
